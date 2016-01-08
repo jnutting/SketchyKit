@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="W6e-fR-6Eq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="simple" id="BYZ-38-t0r" customClass="ViewController" customModule="SketchySample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCK-CJ-PuL">
+                                <rect key="frame" x="20" y="75" width="61" height="30"/>
+                                <state key="normal" title="UIButton"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="UITextField" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EDB-nt-lNf">
+                                <rect key="frame" x="20" y="176" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PKB-SO-cIU">
+                                <rect key="frame" x="20" y="235" width="107" height="92"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UILabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKh-WJ-pIb">
+                                <rect key="frame" x="23" y="130" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cEa-3B-PqS">
+                                <rect key="frame" x="20" y="348" width="79" height="29"/>
+                                <segments>
+                                    <segment title="One"/>
+                                    <segment title="Two"/>
+                                </segments>
+                            </segmentedControl>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wek-6q-4zh" customClass="SketchyUIToolbar" customModule="SketchyUIKit">
+                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="ND7-Za-974"/>
+                                </items>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9es-Ir-6Qy" customClass="SketchyUIButton" customModule="SketchyUIKit">
+                                <rect key="frame" x="146" y="75" width="61" height="30"/>
+                                <state key="normal" title="UIButton"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="UITextField" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0u4-dN-l4J" customClass="SketchyUITextField" customModule="SketchyUIKit">
+                                <rect key="frame" x="146" y="176" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3f1-bL-tAN" customClass="SketchyUIImageView" customModule="SketchyUIKit">
+                                <rect key="frame" x="146" y="235" width="107" height="92"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UILabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XK9-Qv-Gaj" customClass="SketchyUILabel" customModule="SketchyUIKit">
+                                <rect key="frame" x="149" y="130" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Twb-Rd-lpQ" customClass="SketchyUISegmentedControl" customModule="SketchyUIKit">
+                                <rect key="frame" x="146" y="349" width="79" height="29"/>
+                                <segments>
+                                    <segment title="One"/>
+                                    <segment title="Two"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Wek-6q-4zh" secondAttribute="trailing" id="UMC-vp-JXX"/>
+                            <constraint firstItem="Wek-6q-4zh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zei-Pk-uJJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wek-6q-4zh" secondAttribute="bottom" id="ycR-yI-oXk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="60"/>
+        </scene>
+        <!--List-->
+        <scene sceneID="1Vu-8P-bwR">
+            <objects>
+                <tableViewController storyboardIdentifier="list" id="gsn-fy-WO6" customClass="ListController" customModule="SketchySample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="X87-HU-Kvi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Plain" id="Ujh-Yi-6Go" customClass="SketchyUITableViewCell" customModule="SketchyUIKit">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ujh-Yi-6Go" id="2VC-2K-LOu">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="UYc-R7-WHm" kind="show" id="BNc-sJ-GDJ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gsn-fy-WO6" id="FfG-PM-FMY"/>
+                            <outlet property="delegate" destination="gsn-fy-WO6" id="j3j-wh-Kmu"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="List" id="nYp-MY-r20">
+                        <barButtonItem key="rightBarButtonItem" title="More Controls" id="cqm-MJ-7od">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="Uug-WO-Z3H"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="702-2f-Cz8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-509" y="60"/>
+        </scene>
+        <!--Item Controller-->
+        <scene sceneID="YTx-nq-7V9">
+            <objects>
+                <viewController storyboardIdentifier="item detail" id="UYc-R7-WHm" customClass="ItemController" customModule="SketchySample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WGn-5T-1CO"/>
+                        <viewControllerLayoutGuide type="bottom" id="PQa-KV-YA6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tng-Mm-MwX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1c2-25-ZeO" customClass="SketchyUILabel" customModule="SketchyUIKit">
+                                <rect key="frame" x="16" y="72" width="288" height="388"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1c2-25-ZeO" firstAttribute="leading" secondItem="tng-Mm-MwX" secondAttribute="leadingMargin" id="3Kg-J1-EeF"/>
+                            <constraint firstItem="PQa-KV-YA6" firstAttribute="top" secondItem="1c2-25-ZeO" secondAttribute="bottom" constant="20" id="Oa7-BL-kCz"/>
+                            <constraint firstItem="1c2-25-ZeO" firstAttribute="trailing" secondItem="tng-Mm-MwX" secondAttribute="trailingMargin" id="Tn5-Ua-zMH"/>
+                            <constraint firstItem="1c2-25-ZeO" firstAttribute="top" secondItem="WGn-5T-1CO" secondAttribute="bottom" constant="8" id="Yih-Cv-edY"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="label" destination="1c2-25-ZeO" id="Kce-T9-0NF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4WI-Yo-wSd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-95" y="60"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xwh-Nl-cTS">
+            <objects>
+                <navigationController storyboardIdentifier="navigation" id="W6e-fR-6Eq" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fz7-U4-mra" customClass="SketchyUINavigationBar" customModule="SketchyUIKit">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gsn-fy-WO6" kind="relationship" relationship="rootViewController" id="sdq-Eu-KmV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OKQ-IF-S0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-936" y="60"/>
+        </scene>
+    </scenes>
+</document>
