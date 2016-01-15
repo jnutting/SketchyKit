@@ -9,6 +9,7 @@ let sketchyDisabledTextColor = UIColor.lightGrayColor()
 let sketchyBorderColor = UIColor.darkGrayColor()
 let sketchyInnerCrossColor = UIColor.lightGrayColor()
 let sketchyBackgroundColor = UIColor.whiteColor()
+let sketchyAlternateBackgroundColor = UIColor.lightGrayColor()
 let sketchyBorderWidth = CGFloat(2.0)
 let sketchyRoundedCornerRadius = CGFloat(4.0)
 

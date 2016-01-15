@@ -10,6 +10,10 @@
 		040828F71C3FF140001CEE8A /* SketchyUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040828F61C3FF140001CEE8A /* SketchyUITableViewCell.swift */; };
 		040D06BC1C3FADA5003E03A4 /* SketchyUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 040D06BB1C3FADA5003E03A4 /* SketchyUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		040D06E91C3FAE36003E03A4 /* SketchyUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040D06E81C3FAE36003E03A4 /* SketchyUIButton.swift */; };
+		043A8F3E1C491CC800D5EB70 /* SketchyUISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A8F3D1C491CC800D5EB70 /* SketchyUISwitch.swift */; };
+		043A8F421C491EC500D5EB70 /* SketchyUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A8F411C491EC500D5EB70 /* SketchyUISlider.swift */; };
+		043A8F451C49200800D5EB70 /* SketchyUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A8F441C49200800D5EB70 /* SketchyUIProgressView.swift */; };
+		043A8F471C4920F800D5EB70 /* SketchyUIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A8F461C4920F800D5EB70 /* SketchyUIStepper.swift */; };
 		04C1697C1C3FB2D70058DCE5 /* SketchyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1697B1C3FB2D70058DCE5 /* SketchyStyle.swift */; };
 		04C1697E1C3FB5E40058DCE5 /* SketchyUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1697D1C3FB5E40058DCE5 /* SketchyUILabel.swift */; };
 		04C169801C3FB7790058DCE5 /* SketchyUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C1697F1C3FB7790058DCE5 /* SketchyUITextField.swift */; };
@@ -36,6 +40,10 @@
 		040D06BD1C3FADA5003E03A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040D06E21C3FAE05003E03A4 /* SketchySample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SketchySample.xcodeproj; path = SketchySample/SketchySample.xcodeproj; sourceTree = "<group>"; };
 		040D06E81C3FAE36003E03A4 /* SketchyUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUIButton.swift; sourceTree = "<group>"; };
+		043A8F3D1C491CC800D5EB70 /* SketchyUISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUISwitch.swift; sourceTree = "<group>"; };
+		043A8F411C491EC500D5EB70 /* SketchyUISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUISlider.swift; sourceTree = "<group>"; };
+		043A8F441C49200800D5EB70 /* SketchyUIProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUIProgressView.swift; sourceTree = "<group>"; };
+		043A8F461C4920F800D5EB70 /* SketchyUIStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUIStepper.swift; sourceTree = "<group>"; };
 		04C1697B1C3FB2D70058DCE5 /* SketchyStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyStyle.swift; sourceTree = "<group>"; };
 		04C1697D1C3FB5E40058DCE5 /* SketchyUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUILabel.swift; sourceTree = "<group>"; };
 		04C1697F1C3FB7790058DCE5 /* SketchyUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUITextField.swift; sourceTree = "<group>"; };
@@ -80,12 +88,16 @@
 				040D06BD1C3FADA5003E03A4 /* Info.plist */,
 				04C1697B1C3FB2D70058DCE5 /* SketchyStyle.swift */,
 				040D06E81C3FAE36003E03A4 /* SketchyUIButton.swift */,
-				04C1697D1C3FB5E40058DCE5 /* SketchyUILabel.swift */,
-				04C1697F1C3FB7790058DCE5 /* SketchyUITextField.swift */,
 				04C169811C3FB9480058DCE5 /* SketchyUIImageView.swift */,
+				04C1697D1C3FB5E40058DCE5 /* SketchyUILabel.swift */,
 				04C169831C3FC2440058DCE5 /* SketchyUINavigationBar.swift */,
-				040828F61C3FF140001CEE8A /* SketchyUITableViewCell.swift */,
+				043A8F441C49200800D5EB70 /* SketchyUIProgressView.swift */,
 				04C74E4B1C3FFE8500A493C2 /* SketchyUISegmentedControl.swift */,
+				043A8F411C491EC500D5EB70 /* SketchyUISlider.swift */,
+				043A8F461C4920F800D5EB70 /* SketchyUIStepper.swift */,
+				043A8F3D1C491CC800D5EB70 /* SketchyUISwitch.swift */,
+				040828F61C3FF140001CEE8A /* SketchyUITableViewCell.swift */,
+				04C1697F1C3FB7790058DCE5 /* SketchyUITextField.swift */,
 				04C74E501C40015900A493C2 /* SketchyUIToolbar.swift */,
 			);
 			path = SketchyUIKit;
@@ -205,11 +217,15 @@
 				040828F71C3FF140001CEE8A /* SketchyUITableViewCell.swift in Sources */,
 				04C1697E1C3FB5E40058DCE5 /* SketchyUILabel.swift in Sources */,
 				04C169801C3FB7790058DCE5 /* SketchyUITextField.swift in Sources */,
+				043A8F451C49200800D5EB70 /* SketchyUIProgressView.swift in Sources */,
 				04C74E511C40015900A493C2 /* SketchyUIToolbar.swift in Sources */,
 				040D06E91C3FAE36003E03A4 /* SketchyUIButton.swift in Sources */,
 				04C169821C3FB9480058DCE5 /* SketchyUIImageView.swift in Sources */,
+				043A8F471C4920F800D5EB70 /* SketchyUIStepper.swift in Sources */,
 				04C169841C3FC2440058DCE5 /* SketchyUINavigationBar.swift in Sources */,
 				04C1697C1C3FB2D70058DCE5 /* SketchyStyle.swift in Sources */,
+				043A8F3E1C491CC800D5EB70 /* SketchyUISwitch.swift in Sources */,
+				043A8F421C491EC500D5EB70 /* SketchyUISlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
