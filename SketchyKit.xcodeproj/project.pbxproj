@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 040D06B21C3FADA5003E03A4 /* Build configuration list for PBXProject "SketchyUIKit" */;
+			buildConfigurationList = 040D06B21C3FADA5003E03A4 /* Build configuration list for PBXProject "SketchyKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		040D06B21C3FADA5003E03A4 /* Build configuration list for PBXProject "SketchyUIKit" */ = {
+		040D06B21C3FADA5003E03A4 /* Build configuration list for PBXProject "SketchyKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				040D06BE1C3FADA5003E03A4 /* Debug */,

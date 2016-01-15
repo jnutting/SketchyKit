@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SketchyUIKit.xcodeproj">
+      location = "self:/Users/jack/thoughtbot/SketchyKit/SketchyKit.xcodeproj">
    </FileRef>
 </Workspace>
