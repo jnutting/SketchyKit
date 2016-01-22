@@ -16,14 +16,14 @@ your components as you would normally, it's easy to do so.
 
 ## Install SketchyKit via Carthage
 
-The best way to install SketchyKit is by using [Carthage](carthage). Include the
+The best way to install SketchyKit is by using [Carthage][carthage]. Include the
 following line in your `Cartfile`:
 
 ```
 github "thoughtbot/SketchyKit"
 ```
 
-Then follow the steps described in the [Carthage README](carthage) to add the
+Then follow the steps described in the [Carthage README][carthage] to add the
 SketchyUIKit framework to your project.
 
 ## Create a workspace
@@ -32,7 +32,7 @@ After doing this, you'll need to take a couple of additional steps. Xcode
 currently doesn't incorporate custom components into Interface Builder if
 they're contained in an external framework, unless it has access to the source
 code in some way (a problem which is described in some detail
-[here](carthage_issue_335)). You don't want to add the source code to your app project
+[here][carthage_issue_335]). You don't want to add the source code to your app project
 (since it already contains the framework), but you can work around this problem by
 using a workspace.
 
