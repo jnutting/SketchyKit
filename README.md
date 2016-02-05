@@ -32,7 +32,7 @@ for up to date installation instructions.
 
 [carthage-installation]: https://github.com/Carthage/Carthage#adding-frameworks-to-an-application
 
-## Create a workspace
+#### Create a workspace
 
 After doing that basic Carthage setup, you'll need to take a couple of
 additional steps. Xcode currently doesn't incorporate custom components into
