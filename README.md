@@ -99,6 +99,7 @@ directly in Interface Builder:
 - `UITableViewCell`
 - `UITextField`
 - `UIToolbar`
+- `UIView`
 
 In SketchyKit, each of these classes has a corresponding subclass, named by
 simply putting the prefix `Sketchy` in front of the original, e.g.

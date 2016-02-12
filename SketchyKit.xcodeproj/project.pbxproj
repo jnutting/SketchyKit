@@ -21,6 +21,7 @@
 		04C169841C3FC2440058DCE5 /* SketchyUINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C169831C3FC2440058DCE5 /* SketchyUINavigationBar.swift */; };
 		04C74E4C1C3FFE8500A493C2 /* SketchyUISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C74E4B1C3FFE8500A493C2 /* SketchyUISegmentedControl.swift */; };
 		04C74E511C40015900A493C2 /* SketchyUIToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C74E501C40015900A493C2 /* SketchyUIToolbar.swift */; };
+		04FCC32A1C6DDE1D0056720D /* SketchyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCC3291C6DDE1D0056720D /* SketchyUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		04C169831C3FC2440058DCE5 /* SketchyUINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUINavigationBar.swift; sourceTree = "<group>"; };
 		04C74E4B1C3FFE8500A493C2 /* SketchyUISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUISegmentedControl.swift; sourceTree = "<group>"; };
 		04C74E501C40015900A493C2 /* SketchyUIToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUIToolbar.swift; sourceTree = "<group>"; };
+		04FCC3291C6DDE1D0056720D /* SketchyUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchyUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				040828F61C3FF140001CEE8A /* SketchyUITableViewCell.swift */,
 				04C1697F1C3FB7790058DCE5 /* SketchyUITextField.swift */,
 				04C74E501C40015900A493C2 /* SketchyUIToolbar.swift */,
+				04FCC3291C6DDE1D0056720D /* SketchyUIView.swift */,
 			);
 			path = SketchyUIKit;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				04C169801C3FB7790058DCE5 /* SketchyUITextField.swift in Sources */,
 				043A8F451C49200800D5EB70 /* SketchyUIProgressView.swift in Sources */,
 				04C74E511C40015900A493C2 /* SketchyUIToolbar.swift in Sources */,
+				04FCC32A1C6DDE1D0056720D /* SketchyUIView.swift in Sources */,
 				040D06E91C3FAE36003E03A4 /* SketchyUIButton.swift in Sources */,
 				04C169821C3FB9480058DCE5 /* SketchyUIImageView.swift in Sources */,
 				043A8F471C4920F800D5EB70 /* SketchyUIStepper.swift in Sources */,
