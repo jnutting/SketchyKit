@@ -132,8 +132,8 @@ By itself, `SketchyUIView` just draws a white background. If you nest multiple
 `SketchyUIView` instances, however, alternating layers of the view hierarchy
 will alternate between white and light gray. This can be seen in the screenshot
 at the top of this document. However, due to peculiarities in Interface Builder,
-this only works when running in the simulator or on a device. In interface
-builder, each `SketchyUIView` instance will draw a white background.
+this only works when running in the simulator or on a device. In Interface
+Builder, each `SketchyUIView` instance will draw a white background.
 
 ## Background
 
