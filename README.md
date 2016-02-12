@@ -120,9 +120,20 @@ While using sketchy components, you can resize them, reposition them, apply
 constraints, etc, just as you normally would. When you change them back to
 normal components later, all geometry and constraint data will remain the same.
 
-Note: Due to the way Xcode sets things up in Interface Builder,
+### SketchyUINavigationBar
+
+Due to the way Xcode sets things up in Interface Builder,
 `SketchyUINavigationBar` won't get the sketchy look within the editor. When you
 run in the simulator or on a device however, it will work just fine. 
+
+### SketchyUIView
+
+By itself, `SketchyUIView` just draws a white background. If you nest multiple
+`SketchyUIView` instances, however, alternating layers of the view hierarchy
+will alternate between white and light gray. This can be seen in the screenshot
+at the top of this document. However, due to peculiarities in Interface Builder,
+this only works when running in the simulator or on a device. In interface
+builder, each `SketchyUIView` instance will draw a white background.
 
 ## Background
 
