@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.2.1"
   spec.summary      = "A framework for making sketchy iOS designs."
   spec.homepage     = "https://github.com/thoughtbot/SketchyKit"
-  spec.license      = "MIT"
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = {
     "Jack Nutting" => "jack@thoughtbot.com",
     "thoughtbot" => nil
